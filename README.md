@@ -1,5 +1,5 @@
 # Hoo Bank
-<img src="public/assets/demo.gif" width="100%" height="auto" />
+<img src="src/assets/demo.gif" width="100%" height="auto" />
 # [Live Demo](https://hoo-bank-un1t3g.vercel.app/)
 ### Description
 Hoo-Bank is a modern, secure and user-friendly digital bank. Our mission is to make banking simple and accessible to everyone. 
