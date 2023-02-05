@@ -642,10 +642,15 @@ $desktop-width: 1024px;
         margin-bottom: 30px;
       }
 
-      &.right,
-      &.right.list {
+      &.right {
         flex: none;
         width: 100%;
+      }
+
+      &.right.list{
+        flex: none;
+        width: 80%;
+        margin: 0 auto;
       }
     }
 
