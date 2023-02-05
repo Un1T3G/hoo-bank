@@ -301,6 +301,7 @@ $desktop-width: 1024px;
 }
 
 .counter {
+  padding: 50px 0;
   &__row {
     display: flex;
     align-items: center;
@@ -649,6 +650,7 @@ $desktop-width: 1024px;
     }
 
     &__block {
+      min-height: 0;
       &:nth-child(even) {
         & .about-us__row {
           flex-direction: column;
@@ -828,6 +830,7 @@ $desktop-width: 1024px;
     &__list {
       display: flex;
       flex-direction: row;
+      padding: 50px 0;
     }
 
     @media screen and (max-width: $tablet-width) {
