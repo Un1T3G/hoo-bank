@@ -5,7 +5,7 @@ import FeaturesPartnerList from './components/FeaturesPartnerList'
 
 const Features = () => {
   return (
-    <div className="features">
+    <div className="features" data-scroll="Features">
       <div className="container">
         <div className="features__row">
           <FeaturesHeader />

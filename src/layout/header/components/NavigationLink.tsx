@@ -4,12 +4,16 @@ import React from 'react'
 interface IProps {
   label: string
   isActive: boolean
+  onClick: (labe: string) => void
 }
 
-const NavigationLink = ({ label, isActive }: IProps) => {
+const NavigationLink = ({ label, isActive, onClick }: IProps) => {
   return (
     <li className="nav__item">
-      <a href="#" className={classNames('nav__btn', {active: isActive})}>
+      <a
+        onClick={() => onClick(label)}
+        className={classNames('nav__btn', { active: isActive })}
+      >
         {label}
       </a>
     </li>

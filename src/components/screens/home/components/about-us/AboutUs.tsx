@@ -5,7 +5,7 @@ import AboutUsThirdBlock from './components/third/AboutUsThirdBlock'
 
 const AboutUs = () => {
   return (
-    <div className="about-us">
+    <div className="about-us" data-scroll="About Us">
       <AboutUsFirstBlock />
       <AboutUsSecondBlock />
       <AboutUsThirdBlock />

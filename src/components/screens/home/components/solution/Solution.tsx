@@ -4,7 +4,7 @@ import SolutionRightColumn from './components/SolutionRightColumn'
 
 const Solution = () => {
   return (
-    <div className="solution">
+    <div className="solution" data-scroll="Solution">
       <div className="container">
         <div className="solution__row">
           <SolutionLeftColumn />

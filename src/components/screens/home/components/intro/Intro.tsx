@@ -6,7 +6,7 @@ import IntroRobotHand from './components/IntroRobotHand'
 
 const Intro = () => {
   return (
-    <div className="intro">
+    <div className="intro" data-scroll="Home">
       <div className="container">
         <div className="intro__row">
           <IntroDiscount />
